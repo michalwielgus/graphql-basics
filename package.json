@@ -1,0 +1,33 @@
+{
+  "name": "graphql-basics",
+  "version": "1.0.0",
+  "description": "Simple GraphQL API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michalwielgus/graphql-basics.git"
+  },
+  "keywords": [
+    "graphql",
+    "node.js",
+    "api"
+  ],
+  "author": "Michał Mięculewicz-Wielgus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michalwielgus/graphql-basics/issues"
+  },
+  "homepage": "https://github.com/michalwielgus/graphql-basics#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.1.1",
+    "nodemon": "^1.18.10"
+  }
+}
